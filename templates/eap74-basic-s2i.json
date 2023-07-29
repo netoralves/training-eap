@@ -30,16 +30,16 @@
         },
         {
             "displayName": "EAP Image Name",
-            "description": "Name of the EAP image to use, example: eap74-build:latest",
+            "description": "Name of the EAP image to use, example: eap74-openjdk-openshift-rhel8:7.4.11-3.1687184213",
             "name": "EAP_IMAGE_NAME",
-            "value": "eap74-openjdk11-openshift-rhel8:7.4.11-3.1687184213",
+            "value": "registry.redhat.io/jboss-eap-7/eap74-openjdk11-openshift-rhel8:7.4.11-3.1687184213",
             "required": true
         },
         {
             "displayName": "EAP Runtime Image Name",
-            "description": "Name of the EAP image to use, example: eap74-runtime:latest",
+            "description": "Name of the EAP image to use, example: eap74-openjdk11-openshift-rhel8:7.4.11-3.1687184213",
             "name": "EAP_RUNTIME_IMAGE_NAME",
-            "value": "eap74-openjdk11-runtime-openshift-rhel8:7.4.11-3.1687184211",
+            "value": "registry.redhat.io/jboss-eap-7/eap74-openjdk11-openshift-rhel8:7.4.11-3.1687184213",
             "required": true
         },
         {
