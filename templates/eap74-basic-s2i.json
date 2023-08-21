@@ -32,14 +32,14 @@
             "displayName": "EAP Image Name",
             "description": "Name of the EAP image to use, example: eap74-openjdk-openshift-rhel8:7.4.11-3.1687184213",
             "name": "EAP_IMAGE_NAME",
-            "value": "registry.redhat.io/jboss-eap-7/eap74-openjdk11-openshift-rhel8:7.4.11-3.1687184213",
+            "value": "eap74-openjdk11-openshift-rhel8:7.4.11-3.1687184213",
             "required": true
         },
         {
             "displayName": "EAP Runtime Image Name",
             "description": "Name of the EAP image to use, example: eap74-openjdk11-openshift-rhel8:7.4.11-3.1687184213",
             "name": "EAP_RUNTIME_IMAGE_NAME",
-            "value": "registry.redhat.io/jboss-eap-7/eap74-openjdk11-openshift-rhel8:7.4.11-3.1687184213",
+            "value": "eap74-openjdk11-openshift-rhel8:7.4.11-3.1687184213",
             "required": true
         },
         {
@@ -118,7 +118,7 @@
             "displayName": "ImageStream Namespace",
             "description": "Namespace in which the ImageStreams for Red Hat Middleware images are installed. These ImageStreams are normally installed in the openshift namespace. You should only need to modify this if you've installed the ImageStreams in a different namespace/project.",
             "name": "IMAGE_STREAM_NAMESPACE",
-            "value": "openshift",
+            "value": "developer-kitchensink-eap",
             "required": true
         },
         {
