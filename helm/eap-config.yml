@@ -9,6 +9,6 @@ data:
   KITCHENSINK_DRIVER: "mysql"
   KITCHENSINK_JNDI: "java:/jdbc/mysql"
   KITCHENSINK_USERNAME: "eap"
-  KITCHENSINK_PASSWORD: "demo"
+  KITCHENSINK_PASSWORD: "redhat"
   KITCHENSINK_URL: "jdbc:mysql://mysql:3306/eap"
   KITCHENSINK_NONXA: "true"
