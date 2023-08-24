@@ -10,5 +10,5 @@ data:
   KITCHENSINK_JNDI: "java:/jdbc/mysql"
   KITCHENSINK_USERNAME: "eap"
   KITCHENSINK_PASSWORD: "redhat"
-  KITCHENSINK_URL: "jdbc:mysql://mysql:3306/eap"
+  KITCHENSINK_URL: "jdbc:mysql://mysql:3306/kitchensink"
   KITCHENSINK_NONXA: "true"
