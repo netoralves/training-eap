@@ -1,0 +1,14 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: eap-config
+data: 
+  DATASOURCES: "KITCHENSINK"
+  KITCHENSINK_DATABASE: "eap"
+  KITCHENSINK_NAME: "mysql"
+  KITCHENSINK_DRIVER: "mysql"
+  KITCHENSINK_JNDI: "java:/jdbc/mysql"
+  KITCHENSINK_USERNAME: "eap"
+  KITCHENSINK_PASSWORD: "demo"
+  KITCHENSINK_URL: "jdbc:mysql://mysql:3306/eap"
+  KITCHENSINK_NONXA: "true"
