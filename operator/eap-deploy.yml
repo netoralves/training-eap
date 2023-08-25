@@ -1,0 +1,10 @@
+piVersion: wildfly.org/v1alpha1
+kind: WildFlyServer
+metadata:
+  name: kitchen-sink
+spec:
+  applicationImage: 'eap74:latest'
+  envFrom:
+    - configMapRef:
+        name: eap-config
+  replicas: 2
